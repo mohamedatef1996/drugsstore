@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".comp_details"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:context=".pharmacy_profile">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/gradient_bg"
+                android:orientation="vertical">
+
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/comp_detailspic"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:src="@drawable/duafult"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#8BC34A"
+                    app:civ_shadow_radius="10" />
+
+                <TextView
+                    android:id="@+id/comp_detailsname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:gravity="center"
+
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/comp_detailsEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:textIsSelectable="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/comp_detailsLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textIsSelectable="true"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/comp_detailsPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/comp_detailsPhone2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/comp_detailsdescribtion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:textIsSelectable="true"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/ic_description_black_24dp"
+                android:lines="4"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/btn_companydproduct"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_back"
+                android:text="view company product"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".editcomp_product" >
+
+    <ImageView
+        android:id="@+id/comp_editproductImage"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:clickable="true"
+        android:src="@drawable/addproduct" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:background="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/comp_editproductname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="product name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+    <EditText
+        android:id="@+id/comp_editproductprice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="price"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+    <EditText
+        android:id="@+id/comp_editProductDescrip"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="description"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+    <Button
+        android:id="@+id/btn_editcompsave"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_back"
+        android:text="save"
+        android:textColor="@android:color/white" />
+</LinearLayout>

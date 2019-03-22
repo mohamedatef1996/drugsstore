@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "788081896621",
+    "firebase_url": "https://drugs-store-f7b18.firebaseio.com",
+    "project_id": "drugs-store-f7b18",
+    "storage_bucket": "drugs-store-f7b18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788081896621:android:c4e438f277ad9e8f",
+        "android_client_info": {
+          "package_name": "com.example.drugsstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788081896621-jfu2iof70ki8p5f93rmkspb1mkbnesug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drugsstore",
+            "certificate_hash": "5c9b1fd243da8df4eb8d0521a64b01d98b36c30c"
+          }
+        },
+        {
+          "client_id": "788081896621-38k6204ansf0hrqppsqst7dh6num845t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZEADSYkcnSFEWZ1kBcXIiYXRxSTQttIU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788081896621-38k6204ansf0hrqppsqst7dh6num845t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

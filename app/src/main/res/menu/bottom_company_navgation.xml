@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile"
+        android:title="profile" />
+    <item
+        android:id="@+id/na_add"
+        android:icon="@drawable/addicon"
+        android:title="add product" />
+    <item
+        android:id="@+id/nav_myproduct"
+        android:icon="@drawable/myproduct"
+        android:title="My product" />
+
+    <item
+        android:id="@+id/n_notification"
+        android:icon="@drawable/notification"
+        android:title="Notification" />
+
+</menu>

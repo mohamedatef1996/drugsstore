@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".company_profile">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:context=".after_register">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@drawable/gradient_bg"
+                android:orientation="vertical">
+
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/First_profile_pic"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+
+                    android:layout_alignParentLeft="true"
+
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:src="@drawable/duafult"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#8BC34A"
+                    app:civ_shadow_radius="10" />
+
+                <EditText
+                    android:id="@+id/First_ed_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Company name"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/First_ed_location"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="location"
+                android:inputType="textPersonName"
+                android:paddingLeft="15dp" />
+
+            <EditText
+                android:id="@+id/First_etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="phone number"
+                android:inputType="phone"
+                android:paddingLeft="10dp" />
+            <EditText
+                android:id="@+id/First_etPhone2"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="second number"
+                android:inputType="phone"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/First_description"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="description"
+                android:inputType="text"
+                android:paddingLeft="10dp" />
+
+            <Button
+                android:id="@+id/First_btn_Next"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_back"
+                android:text="Next"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
